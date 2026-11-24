@@ -80,6 +80,7 @@ fn validates_plain_guest_addresses_and_keeps_first_role() {
         "",
         "a@localhost",
         "a@example.123",
+        "a@example.123a",
         "a@[::1]",
         "Name <a@example.com>",
         "\"a,b\"@example.com",
@@ -98,8 +99,10 @@ fn validates_plain_guest_addresses_and_keeps_first_role() {
     }
     for valid in [
         "a+b@example.com",
+        "a@example.a123",
         "a@[127.0.0.1]",
         "a@[IPv6:::1]",
+        "a@[iPv6:::1]",
         "who?what&why=how/now%then@example.com",
     ] {
         assert!(event().guest(valid, false).is_ok(), "{valid:?}");

@@ -328,10 +328,12 @@ fn validate_email(email: &str) -> Result<(), Error> {
                     .bytes()
                     .all(|b| b.is_ascii_alphanumeric() || b".!#$%&'*+-/=?^_`{|}~".contains(&b))
                 && ((domain.contains('.')
-                    && domain
-                        .rsplit('.')
-                        .next()
-                        .is_some_and(|label| label.bytes().any(|byte| byte.is_ascii_alphabetic()))
+                    && domain.rsplit('.').next().is_some_and(|label| {
+                        label
+                            .as_bytes()
+                            .first()
+                            .is_some_and(u8::is_ascii_alphabetic)
+                    })
                     && domain.split('.').all(|label| {
                         !label.is_empty()
                             && label.len() <= 63
@@ -345,10 +347,12 @@ fn validate_email(email: &str) -> Result<(), Error> {
                         .strip_prefix('[')
                         .and_then(|s| s.strip_suffix(']'))
                         .is_some_and(|s| {
-                            s.strip_prefix("IPv6:").map_or_else(
-                                || s.parse::<std::net::Ipv4Addr>().is_ok(),
-                                |address| address.parse::<std::net::Ipv6Addr>().is_ok(),
-                            )
+                            s.split_once(':')
+                                .filter(|(prefix, _)| prefix.eq_ignore_ascii_case("IPv6"))
+                                .map_or_else(
+                                    || s.parse::<std::net::Ipv4Addr>().is_ok(),
+                                    |(_, address)| address.parse::<std::net::Ipv6Addr>().is_ok(),
+                                )
                         }))
         });
     if valid {
