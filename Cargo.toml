@@ -16,7 +16,7 @@ include = ["/src/", "/tests/", "/build.rs", "/docs/", "/README.md", "/LICENSE.md
 
 [dependencies]
 jiff = { version = "0.2", features = ["tzdb-bundle-always"] }
-base64 = "0.22"
+base64 = "0.23"
 md5 = "0.8"
 thiserror = "2"
 
