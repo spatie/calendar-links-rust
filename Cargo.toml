@@ -15,7 +15,7 @@ categories = ["date-and-time", "web-programming"]
 include = ["/src/", "/tests/", "/build.rs", "/docs/", "/README.md", "/LICENSE.md", "/CHANGELOG.md", "/CONTRIBUTING.md", "/SECURITY.md", "/Cargo.lock"]
 
 [dependencies]
-jiff = { version = "0.2", features = ["tzdb-bundle-always"] }
+jiff = { version = "1.0", features = ["tzdb-bundle-always"] }
 base64 = "0.22"
 md5 = "0.8"
 thiserror = "2"
