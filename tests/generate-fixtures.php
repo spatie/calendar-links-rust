@@ -2,6 +2,11 @@
 
 // Regenerate with PHP 8.3+ against spatie/calendar-links a1590989934891fa79c145eb1108e42765218b17:
 // php tests/generate-fixtures.php ../calendar-links > tests/fixtures/php.json
+// Use a PHP build with the system timezone database at /usr/share/zoneinfo.
+if (timezone_version_get() !== '0.system') {
+    throw new RuntimeException('Fixture generation requires PHP with the system timezone database.');
+}
+
 spl_autoload_register(function ($class) use ($argv) {
     require $argv[1].'/src/'.str_replace('\\', '/', substr($class, strlen('Spatie\\CalendarLinks\\'))).'.php';
 });
@@ -53,6 +58,15 @@ foreach (['1 < 2 and 3 > 2', 'a<!-- x > y -->b', 'a<?php echo "?>"; ?>b', '<p ti
 }
 
 foreach ($cases as &$case) {
+    foreach (['from', 'to'] as $key) {
+        if (preg_match('/\[(.+)]$/', $case[$key], $matches)) {
+            $destination = __DIR__.'/fixtures/zoneinfo/'.$matches[1];
+            if (! is_dir(dirname($destination))) {
+                mkdir(dirname($destination), 0777, true);
+            }
+            copy('/usr/share/zoneinfo/'.$matches[1], $destination);
+        }
+    }
     $from = datetime($case['from']);
     $to = datetime($case['to']);
     // An explicit offset disambiguates a fold; restore the named timezone afterwards.
