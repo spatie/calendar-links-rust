@@ -1,7 +1,9 @@
 # Changelog
 
-All notable changes to `{{crate_name}}` will be documented in this file.
+All notable changes to `spatie-calendar-links` will be documented in this file.
 
 ## Unreleased
 
-- Initial development.
+- Generate Google, Yahoo, Outlook and Office 365 calendar links, ICS files and data URIs.
+- Support all-day events, guests, separate endpoint timezones, recurring events and reminders.
+- Customize URL parameters, ICS properties and generators.

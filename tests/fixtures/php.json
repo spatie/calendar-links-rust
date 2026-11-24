@@ -1,0 +1,792 @@
+[
+    {
+        "name": "readme",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "A full day of hands-on testing. Bring a laptop.",
+        "address": "Samberstraat 69D, 2060 Antwerp, Belgium",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=A+full+day+of+hands-on+testing.+Bring+a+laptop.&location=Samberstraat+69D%2C+2060+Antwerp%2C+Belgium",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=A%20full%20day%20of%20hands-on%20testing.%20Bring%20a%20laptop.&in_loc=Samberstraat%2069D%2C%202060%20Antwerp%2C%20Belgium",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=A%20full%20day%20of%20hands-on%20testing.%20Bring%20a%20laptop.&location=Samberstraat%2069D%2C%202060%20Antwerp%2C%20Belgium",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=A%20full%20day%20of%20hands-on%20testing.%20Bring%20a%20laptop.&location=Samberstraat%2069D%2C%202060%20Antwerp%2C%20Belgium",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:520cbd9fe520170f6d0a29e400ac4117\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:A full day of hands-on testing. Bring a laptop.\r\nLOCATION:Samberstraat 69D\\, 2060 Antwerp\\, Belgium\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NTIwY2JkOWZlNTIwMTcwZjZkMGEyOWU0MDBhYzQxMTcNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjpBIGZ1bGwgZGF5IG9mIGhhbmRzLW9uIHRlc3RpbmcuIEJyaW5nIGEgbGFwdG9wLg0KTE9DQVRJT046U2FtYmVyc3RyYWF0IDY5RFwsIDIwNjAgQW50d2VycFwsIEJlbGdpdW0NCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:520cbd9fe520170f6d0a29e400ac4117\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:A full day of hands-on testing. Bring a laptop.\r\nLOCATION:Samberstraat 69D\\, 2060 Antwerp\\, Belgium\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "flight",
+        "title": "NH 106 Tokyo to Los Angeles",
+        "from": "2027-03-15T09:00[Asia/Tokyo]",
+        "to": "2027-03-15T09:30[America/Los_Angeles]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T090000/20270315T093000&stz=Asia/Tokyo&etz=America/Los_Angeles&text=NH+106+Tokyo+to+Los+Angeles",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T090000&ET=20270316T013000&TITLE=NH%20106%20Tokyo%20to%20Los%20Angeles",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T00:00:00Z&enddt=2027-03-15T16:30:00Z&subject=NH%20106%20Tokyo%20to%20Los%20Angeles",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T00:00:00Z&enddt=2027-03-15T16:30:00Z&subject=NH%20106%20Tokyo%20to%20Los%20Angeles",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Tokyo\r\nBEGIN:STANDARD\r\nDTSTART:20260315T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:JST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:America/Los_Angeles\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260314T170000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261101T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270314T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271107T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20280312T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:950b3e39f0e8344ccd3a11a310eb193c\r\nSUMMARY:NH 106 Tokyo to Los Angeles\r\nDTSTAMP:20270315T000000Z\r\nDTSTART;TZID=Asia/Tokyo:20270315T090000\r\nDTEND;TZID=America/Los_Angeles:20270315T093000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFzaWEvVG9reW8NCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjYwMzE1VDA5MDAwMA0KVFpPRkZTRVRGUk9NOiswOTAwDQpUWk9GRlNFVFRPOiswOTAwDQpUWk5BTUU6SlNUDQpFTkQ6U1RBTkRBUkQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZUSU1FWk9ORQ0KVFpJRDpBbWVyaWNhL0xvc19BbmdlbGVzDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI2MDMxNFQxNzAwMDANClRaT0ZGU0VURlJPTTotMDcwMA0KVFpPRkZTRVRUTzotMDcwMA0KVFpOQU1FOlBEVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MTEwMVQwMjAwMDANClRaT0ZGU0VURlJPTTotMDcwMA0KVFpPRkZTRVRUTzotMDgwMA0KVFpOQU1FOlBTVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI3MDMxNFQwMjAwMDANClRaT0ZGU0VURlJPTTotMDgwMA0KVFpPRkZTRVRUTzotMDcwMA0KVFpOQU1FOlBEVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI3MTEwN1QwMjAwMDANClRaT0ZGU0VURlJPTTotMDcwMA0KVFpPRkZTRVRUTzotMDgwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMTtCWURBWT0xU1UNClRaTkFNRTpQU1QNCkVORDpTVEFOREFSRA0KQkVHSU46REFZTElHSFQNCkRUU1RBUlQ6MjAyODAzMTJUMDIwMDAwDQpUWk9GRlNFVEZST006LTA4MDANClRaT0ZGU0VUVE86LTA3MDANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9MztCWURBWT0yU1UNClRaTkFNRTpQRFQNCkVORDpEQVlMSUdIVA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpVSUQ6OTUwYjNlMzlmMGU4MzQ0Y2NkM2ExMWEzMTBlYjE5M2MNClNVTU1BUlk6TkggMTA2IFRva3lvIHRvIExvcyBBbmdlbGVzDQpEVFNUQU1QOjIwMjcwMzE1VDAwMDAwMFoNCkRUU1RBUlQ7VFpJRD1Bc2lhL1Rva3lvOjIwMjcwMzE1VDA5MDAwMA0KRFRFTkQ7VFpJRD1BbWVyaWNhL0xvc19BbmdlbGVzOjIwMjcwMzE1VDA5MzAwMA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Tokyo\r\nBEGIN:STANDARD\r\nDTSTART:20260315T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:JST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:America/Los_Angeles\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260314T170000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261101T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270314T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271107T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20280312T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:950b3e39f0e8344ccd3a11a310eb193c\r\nSUMMARY:NH 106 Tokyo to Los Angeles\r\nDTSTAMP:20270315T000000Z\r\nDTSTART;TZID=Asia/Tokyo:20270315T090000\r\nDTEND;TZID=America/Los_Angeles:20270315T093000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "same offset places",
+        "title": "Birthday party",
+        "from": "2026-01-15T09:00[Europe/London]",
+        "to": "2026-01-15T11:45[Europe/Lisbon]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260115T090000/20260115T114500&stz=Europe/London&etz=Europe/Lisbon&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260115T090000&ET=20260115T114500&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-15T09:00:00Z&enddt=2026-01-15T11:45:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-15T09:00:00Z&enddt=2026-01-15T11:45:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/London\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250330T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:GMT\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Lisbon\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:WET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250330T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:WEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:WET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:WEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:WET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:2ffe8a6d0df3bcd279b3ee4b3207e50c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260115T090000Z\r\nDTSTART;TZID=Europe/London:20260115T090000\r\nDTEND;TZID=Europe/Lisbon:20260115T114500\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkV1cm9wZS9Mb25kb24NCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUwMTE1VDA5MDAwMA0KVFpPRkZTRVRGUk9NOiswMDAwDQpUWk9GRlNFVFRPOiswMDAwDQpUWk5BTUU6R01UDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjUwMzMwVDAxMDAwMA0KVFpPRkZTRVRGUk9NOiswMDAwDQpUWk9GRlNFVFRPOiswMTAwDQpUWk5BTUU6QlNUDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUxMDI2VDAyMDAwMA0KVFpPRkZTRVRGUk9NOiswMTAwDQpUWk9GRlNFVFRPOiswMDAwDQpUWk5BTUU6R01UDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjYwMzI5VDAxMDAwMA0KVFpPRkZTRVRGUk9NOiswMDAwDQpUWk9GRlNFVFRPOiswMTAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9LTFTVQ0KVFpOQU1FOkJTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MTAyNVQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMDtCWURBWT0tMVNVDQpUWk5BTUU6R01UDQpFTkQ6U1RBTkRBUkQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZUSU1FWk9ORQ0KVFpJRDpFdXJvcGUvTGlzYm9uDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI1MDExNVQwOTAwMDANClRaT0ZGU0VURlJPTTorMDAwMA0KVFpPRkZTRVRUTzorMDAwMA0KVFpOQU1FOldFVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI1MDMzMFQwMTAwMDANClRaT0ZGU0VURlJPTTorMDAwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOldFU1QNCkVORDpEQVlMSUdIVA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNTEwMjZUMDIwMDAwDQpUWk9GRlNFVEZST006KzAxMDANClRaT0ZGU0VUVE86KzAwMDANClRaTkFNRTpXRVQNCkVORDpTVEFOREFSRA0KQkVHSU46REFZTElHSFQNCkRUU1RBUlQ6MjAyNjAzMjlUMDEwMDAwDQpUWk9GRlNFVEZST006KzAwMDANClRaT0ZGU0VUVE86KzAxMDANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9MztCWURBWT0tMVNVDQpUWk5BTUU6V0VTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MTAyNVQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMDtCWURBWT0tMVNVDQpUWk5BTUU6V0VUDQpFTkQ6U1RBTkRBUkQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZFVkVOVA0KVUlEOjJmZmU4YTZkMGRmM2JjZDI3OWIzZWU0YjMyMDdlNTBjDQpTVU1NQVJZOkJpcnRoZGF5IHBhcnR5DQpEVFNUQU1QOjIwMjYwMTE1VDA5MDAwMFoNCkRUU1RBUlQ7VFpJRD1FdXJvcGUvTG9uZG9uOjIwMjYwMTE1VDA5MDAwMA0KRFRFTkQ7VFpJRD1FdXJvcGUvTGlzYm9uOjIwMjYwMTE1VDExNDUwMA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/London\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250330T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:GMT\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Lisbon\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:WET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250330T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:WEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:WET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:WEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:WET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:2ffe8a6d0df3bcd279b3ee4b3207e50c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260115T090000Z\r\nDTSTART;TZID=Europe/London:20260115T090000\r\nDTEND;TZID=Europe/Lisbon:20260115T114500\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "alias places",
+        "title": "Birthday party",
+        "from": "2026-01-15T09:00[Japan]",
+        "to": "2026-01-15T11:45[Asia/Seoul]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260115T090000/20260115T114500&stz=Japan&etz=Asia/Seoul&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260115T090000&ET=20260115T114500&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-15T00:00:00Z&enddt=2026-01-15T02:45:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-15T00:00:00Z&enddt=2026-01-15T02:45:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Japan\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:JST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Seoul\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:KST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d78646dfe4c5a64224bae1408979a8b9\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260115T000000Z\r\nDTSTART;TZID=Japan:20260115T090000\r\nDTEND;TZID=Asia/Seoul:20260115T114500\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkphcGFuDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI1MDExNVQwOTAwMDANClRaT0ZGU0VURlJPTTorMDkwMA0KVFpPRkZTRVRUTzorMDkwMA0KVFpOQU1FOkpTVA0KRU5EOlNUQU5EQVJEDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWVElNRVpPTkUNClRaSUQ6QXNpYS9TZW91bA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNTAxMTVUMDkwMDAwDQpUWk9GRlNFVEZST006KzA5MDANClRaT0ZGU0VUVE86KzA5MDANClRaTkFNRTpLU1QNCkVORDpTVEFOREFSRA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpVSUQ6ZDc4NjQ2ZGZlNGM1YTY0MjI0YmFlMTQwODk3OWE4YjkNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAxMTVUMDAwMDAwWg0KRFRTVEFSVDtUWklEPUphcGFuOjIwMjYwMTE1VDA5MDAwMA0KRFRFTkQ7VFpJRD1Bc2lhL1Nlb3VsOjIwMjYwMTE1VDExNDUwMA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Japan\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:JST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Seoul\r\nBEGIN:STANDARD\r\nDTSTART:20250115T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:KST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d78646dfe4c5a64224bae1408979a8b9\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260115T000000Z\r\nDTSTART;TZID=Japan:20260115T090000\r\nDTEND;TZID=Asia/Seoul:20260115T114500\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "fixed regions",
+        "title": "Birthday party",
+        "from": "2027-07-01T09:00[Asia/Kolkata]",
+        "to": "2027-07-01T15:30[Atlantic/Reykjavik]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270701T090000/20270701T153000&stz=Asia/Kolkata&etz=Atlantic/Reykjavik&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270701T090000&ET=20270701T210000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-07-01T03:30:00Z&enddt=2027-07-01T15:30:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-07-01T03:30:00Z&enddt=2027-07-01T15:30:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Kolkata\r\nBEGIN:STANDARD\r\nDTSTART:20260701T090000\r\nTZOFFSETFROM:+0530\r\nTZOFFSETTO:+0530\r\nTZNAME:IST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Atlantic/Reykjavik\r\nBEGIN:STANDARD\r\nDTSTART:20260701T033000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5f804fe34b15122bb5feeedc22f33307\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270701T033000Z\r\nDTSTART;TZID=Asia/Kolkata:20270701T090000\r\nDTEND;TZID=Atlantic/Reykjavik:20270701T153000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFzaWEvS29sa2F0YQ0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNjA3MDFUMDkwMDAwDQpUWk9GRlNFVEZST006KzA1MzANClRaT0ZGU0VUVE86KzA1MzANClRaTkFNRTpJU1QNCkVORDpTVEFOREFSRA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VlRJTUVaT05FDQpUWklEOkF0bGFudGljL1JleWtqYXZpaw0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNjA3MDFUMDMzMDAwDQpUWk9GRlNFVEZST006KzAwMDANClRaT0ZGU0VUVE86KzAwMDANClRaTkFNRTpHTVQNCkVORDpTVEFOREFSRA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpVSUQ6NWY4MDRmZTM0YjE1MTIyYmI1ZmVlZWRjMjJmMzMzMDcNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzA3MDFUMDMzMDAwWg0KRFRTVEFSVDtUWklEPUFzaWEvS29sa2F0YToyMDI3MDcwMVQwOTAwMDANCkRURU5EO1RaSUQ9QXRsYW50aWMvUmV5a2phdmlrOjIwMjcwNzAxVDE1MzAwMA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Kolkata\r\nBEGIN:STANDARD\r\nDTSTART:20260701T090000\r\nTZOFFSETFROM:+0530\r\nTZOFFSETTO:+0530\r\nTZNAME:IST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VTIMEZONE\r\nTZID:Atlantic/Reykjavik\r\nBEGIN:STANDARD\r\nDTSTART:20260701T033000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5f804fe34b15122bb5feeedc22f33307\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270701T033000Z\r\nDTSTART;TZID=Asia/Kolkata:20270701T090000\r\nDTEND;TZID=Atlantic/Reykjavik:20270701T153000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "unresolved flight",
+        "title": "Birthday party",
+        "from": "2027-03-15T09:00[Asia/Tokyo]",
+        "to": "2027-03-15T09:30-07:00",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T000000Z/20270315T163000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T090000&ET=20270316T013000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T00:00:00Z&enddt=2027-03-15T16:30:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T00:00:00Z&enddt=2027-03-15T16:30:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5497e0da7d10e8dc22227fec78a13d7a\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T000000Z\r\nDTSTART:20270315T000000Z\r\nDTEND:20270315T163000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NTQ5N2UwZGE3ZDEwZThkYzIyMjI3ZmVjNzhhMTNkN2ENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDAwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwMDAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjMwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5497e0da7d10e8dc22227fec78a13d7a\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T000000Z\r\nDTSTART:20270315T000000Z\r\nDTEND:20270315T163000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "utc aliases",
+        "title": "Birthday party",
+        "from": "2026-01-01T10:00[UTC]",
+        "to": "2026-01-01T11:00[Etc/UTC]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260101T100000/20260101T110000&ctz=UTC&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260101T100000&ET=20260101T110000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:91ef29c611674e7da7fd0b19bbecaf60\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART:20260101T100000Z\r\nDTEND:20260101T110000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6OTFlZjI5YzYxMTY3NGU3ZGE3ZmQwYjE5YmJlY2FmNjANClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAxMDFUMTAwMDAwWg0KRFRTVEFSVDoyMDI2MDEwMVQxMDAwMDBaDQpEVEVORDoyMDI2MDEwMVQxMTAwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:UTC\r\nBEGIN:STANDARD\r\nDTSTART:20250101T100000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:UTC\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:91ef29c611674e7da7fd0b19bbecaf60\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART;TZID=UTC:20260101T100000\r\nDTEND;TZID=UTC:20260101T110000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "zero fields",
+        "title": "Birthday party",
+        "from": "2026-01-01T10:00[UTC]",
+        "to": "2026-01-01T11:00[UTC]",
+        "description": "0",
+        "address": "0",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260101T100000/20260101T110000&ctz=UTC&text=Birthday+party&details=0&location=0",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260101T100000&ET=20260101T110000&TITLE=Birthday%20party&DESC=0&in_loc=0",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party&body=0&location=0",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party&body=0&location=0",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:643afceb350208f35b90417a657c965e\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART:20260101T100000Z\r\nDTEND:20260101T110000Z\r\nDESCRIPTION:0\r\nLOCATION:0\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NjQzYWZjZWIzNTAyMDhmMzViOTA0MTdhNjU3Yzk2NWUNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAxMDFUMTAwMDAwWg0KRFRTVEFSVDoyMDI2MDEwMVQxMDAwMDBaDQpEVEVORDoyMDI2MDEwMVQxMTAwMDBaDQpERVNDUklQVElPTjowDQpMT0NBVElPTjowDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:UTC\r\nBEGIN:STANDARD\r\nDTSTART:20250101T100000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:UTC\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:643afceb350208f35b90417a657c965e\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART;TZID=UTC:20260101T100000\r\nDTEND;TZID=UTC:20260101T110000\r\nDESCRIPTION:0\r\nLOCATION:0\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "escaping",
+        "title": "é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉\\;,\r\n\u0000\u0001\t",
+        "from": "2026-01-01T10:00[UTC]",
+        "to": "2026-01-01T11:00[UTC]",
+        "description": "<p>Bring <b>a laptop</b> &amp; a dog.</p>\r\n",
+        "address": "A \\ B; C, D",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260101T100000/20260101T110000&ctz=UTC&text=%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%5C%3B%2C%0D%0A%00%01%09&details=%3Cp%3EBring+%3Cb%3Ea+laptop%3C%2Fb%3E+%26amp%3B+a+dog.%3C%2Fp%3E%0D%0A&location=A+%5C+B%3B+C%2C+D",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260101T100000&ET=20260101T110000&TITLE=%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%5C%3B%2C%0D%0A%00%01%09&DESC=%3Cp%3EBring%20%3Cb%3Ea%20laptop%3C%2Fb%3E%20%26amp%3B%20a%20dog.%3C%2Fp%3E%0D%0A&in_loc=A%20%5C%20B%3B%20C%2C%20D",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%5C%3B%2C%0D%0A%00%01%09&body=%3Cp%3EBring%20%3Cb%3Ea%20laptop%3C%2Fb%3E%20%26amp%3B%20a%20dog.%3C%2Fp%3E%0D%0A&location=A%20%5C%20B%3B%20C%2C%20D",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%C3%A9%F0%9F%98%89%5C%3B%2C%0D%0A%00%01%09&body=%3Cp%3EBring%20%3Cb%3Ea%20laptop%3C%2Fb%3E%20%26amp%3B%20a%20dog.%3C%2Fp%3E%0D%0A&location=A%20%5C%20B%3B%20C%2C%20D",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:2770d8443dd9505569646d85a8b1bc16\r\nSUMMARY:é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉\r\n é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é\r\n 😉\\\\\\;\\,\\n\t\r\nDTSTAMP:20260101T100000Z\r\nDTSTART:20260101T100000Z\r\nDTEND:20260101T110000Z\r\nDESCRIPTION:Bring a laptop &amp\\; a dog.\\n\r\nLOCATION:A \\\\ B\\; C\\, D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6Mjc3MGQ4NDQzZGQ5NTA1NTY5NjQ2ZDg1YThiMWJjMTYNClNVTU1BUlk6w6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJDQogw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6nwn5iJw6kNCiDwn5iJXFxcO1wsXG4JDQpEVFNUQU1QOjIwMjYwMTAxVDEwMDAwMFoNCkRUU1RBUlQ6MjAyNjAxMDFUMTAwMDAwWg0KRFRFTkQ6MjAyNjAxMDFUMTEwMDAwWg0KREVTQ1JJUFRJT046QnJpbmcgYSBsYXB0b3AgJmFtcFw7IGEgZG9nLlxuDQpMT0NBVElPTjpBIFxcIEJcOyBDXCwgRA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:UTC\r\nBEGIN:STANDARD\r\nDTSTART:20250101T100000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:UTC\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:2770d8443dd9505569646d85a8b1bc16\r\nSUMMARY:é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉\r\n é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é😉é\r\n 😉\\\\\\;\\,\\n\t\r\nDTSTAMP:20260101T100000Z\r\nDTSTART;TZID=UTC:20260101T100000\r\nDTEND;TZID=UTC:20260101T110000\r\nDESCRIPTION:Bring a laptop &amp\\; a dog.\\n\r\nLOCATION:A \\\\ B\\; C\\, D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "guests",
+        "title": "Birthday party",
+        "from": "2026-01-01T10:00[UTC]",
+        "to": "2026-01-01T11:00[UTC]",
+        "guests": [
+            [
+                "freek@example.com",
+                false
+            ],
+            [
+                "ruben@example.com",
+                false
+            ],
+            [
+                "FREEK@example.com",
+                true
+            ],
+            [
+                "willem@example.com",
+                true
+            ],
+            [
+                "who?what&why=how/now%then@example.com",
+                false
+            ]
+        ],
+        "parameters": [
+            [
+                "sprop",
+                "goo.allowModify:false"
+            ],
+            [
+                "sprop",
+                "goo.showInvitees:false"
+            ],
+            [
+                "flag",
+                null
+            ],
+            [
+                "empty",
+                ""
+            ],
+            [
+                "zero",
+                "0"
+            ],
+            [
+                "tilde ~",
+                "~ +"
+            ],
+            [
+                "inv_list",
+                "a+b@example.com,c@example.com"
+            ]
+        ],
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260101T100000/20260101T110000&ctz=UTC&text=Birthday+party&add=freek%40example.com%2Cruben%40example.com%2Cwillem%40example.com_o%2Cwho%3Fwhat%26why%3Dhow%2Fnow%25then%40example.com&sprop=goo.allowModify%3Afalse&sprop=goo.showInvitees%3Afalse&flag&empty&zero=0&tilde+%7E=%7E+%2B&inv_list=a%2Bb%40example.com%2Cc%40example.com",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260101T100000&ET=20260101T110000&TITLE=Birthday%20party&inv_list=freek%40example.com,ruben%40example.com,willem%40example.com,who%3Fwhat%26why%3Dhow%2Fnow%25then%40example.com&sprop=goo.allowModify%3Afalse&sprop=goo.showInvitees%3Afalse&flag&empty&zero=0&tilde+%7E=~%20%2B&inv_list=a%2Bb%40example.com,c%40example.com",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party&to=freek%40example.com,ruben%40example.com,who%3Fwhat%26why%3Dhow%2Fnow%25then%40example.com&cc=willem%40example.com&sprop=goo.allowModify%3Afalse&sprop=goo.showInvitees%3Afalse&flag&empty&zero=0&tilde+%7E=~%20%2B&inv_list=a%2Bb%40example.com%2Cc%40example.com",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01T10:00:00Z&enddt=2026-01-01T11:00:00Z&subject=Birthday%20party&to=freek%40example.com,ruben%40example.com,who%3Fwhat%26why%3Dhow%2Fnow%25then%40example.com&cc=willem%40example.com&sprop=goo.allowModify%3Afalse&sprop=goo.showInvitees%3Afalse&flag&empty&zero=0&tilde+%7E=~%20%2B&inv_list=a%2Bb%40example.com%2Cc%40example.com",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:91ef29c611674e7da7fd0b19bbecaf60\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART:20260101T100000Z\r\nDTEND:20260101T110000Z\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:freek@example.com\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:ruben@example.com\r\nATTENDEE;ROLE=OPT-PARTICIPANT:mailto:willem@example.com\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:who%3Fwhat%26why%3Dhow%2Fnow%25then@ex\r\n ample.com\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6OTFlZjI5YzYxMTY3NGU3ZGE3ZmQwYjE5YmJlY2FmNjANClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAxMDFUMTAwMDAwWg0KRFRTVEFSVDoyMDI2MDEwMVQxMDAwMDBaDQpEVEVORDoyMDI2MDEwMVQxMTAwMDBaDQpBVFRFTkRFRTtST0xFPVJFUS1QQVJUSUNJUEFOVDptYWlsdG86ZnJlZWtAZXhhbXBsZS5jb20NCkFUVEVOREVFO1JPTEU9UkVRLVBBUlRJQ0lQQU5UOm1haWx0bzpydWJlbkBleGFtcGxlLmNvbQ0KQVRURU5ERUU7Uk9MRT1PUFQtUEFSVElDSVBBTlQ6bWFpbHRvOndpbGxlbUBleGFtcGxlLmNvbQ0KQVRURU5ERUU7Uk9MRT1SRVEtUEFSVElDSVBBTlQ6bWFpbHRvOndobyUzRndoYXQlMjZ3aHklM0Rob3clMkZub3clMjV0aGVuQGV4DQogYW1wbGUuY29tDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:UTC\r\nBEGIN:STANDARD\r\nDTSTART:20250101T100000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:UTC\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:91ef29c611674e7da7fd0b19bbecaf60\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260101T100000Z\r\nDTSTART;TZID=UTC:20260101T100000\r\nDTEND;TZID=UTC:20260101T110000\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:freek@example.com\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:ruben@example.com\r\nATTENDEE;ROLE=OPT-PARTICIPANT:mailto:willem@example.com\r\nATTENDEE;ROLE=REQ-PARTICIPANT:mailto:who%3Fwhat%26why%3Dhow%2Fnow%25then@ex\r\n ample.com\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "UTC",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[UTC]",
+        "to": "2026-06-01T10:00[UTC]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=UTC&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T09:00:00Z&enddt=2026-06-01T10:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T09:00:00Z&enddt=2026-06-01T10:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:8380f01a7bbce1a52adab9fc2325900b\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T090000Z\r\nDTSTART:20260601T090000Z\r\nDTEND:20260601T100000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6ODM4MGYwMWE3YmJjZTFhNTJhZGFiOWZjMjMyNTkwMGINClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMDkwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQwOTAwMDBaDQpEVEVORDoyMDI2MDYwMVQxMDAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:UTC\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0000\r\nTZNAME:UTC\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:8380f01a7bbce1a52adab9fc2325900b\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T090000Z\r\nDTSTART;TZID=UTC:20260601T090000\r\nDTEND;TZID=UTC:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Europe/Brussels",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Europe/Brussels]",
+        "to": "2026-06-01T10:00[Europe/Brussels]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART;TZID=Europe/Brussels:20260601T090000\r\nDTEND;TZID=Europe/Brussels:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkV1cm9wZS9CcnVzc2Vscw0KQkVHSU46REFZTElHSFQNCkRUU1RBUlQ6MjAyNTA2MDFUMDkwMDAwDQpUWk9GRlNFVEZST006KzAyMDANClRaT0ZGU0VUVE86KzAyMDANClRaTkFNRTpDRVNUDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUxMDI2VDAzMDAwMA0KVFpPRkZTRVRGUk9NOiswMjAwDQpUWk9GRlNFVFRPOiswMTAwDQpUWk5BTUU6Q0VUDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjYwMzI5VDAyMDAwMA0KVFpPRkZTRVRGUk9NOiswMTAwDQpUWk9GRlNFVFRPOiswMjAwDQpUWk5BTUU6Q0VTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MTAyNVQwMzAwMDANClRaT0ZGU0VURlJPTTorMDIwMA0KVFpPRkZTRVRUTzorMDEwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMDtCWURBWT0tMVNVDQpUWk5BTUU6Q0VUDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjcwMzI4VDAyMDAwMA0KVFpPRkZTRVRGUk9NOiswMTAwDQpUWk9GRlNFVFRPOiswMjAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9LTFTVQ0KVFpOQU1FOkNFU1QNCkVORDpEQVlMSUdIVA0KRU5EOlZUSU1FWk9ORQ0KQkVHSU46VkVWRU5UDQpVSUQ6ZWRlMGMzMGMwNGY4OWMwNzIwYzAxY2QzMjcwM2UyMGMNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMDcwMDAwWg0KRFRTVEFSVDtUWklEPUV1cm9wZS9CcnVzc2VsczoyMDI2MDYwMVQwOTAwMDANCkRURU5EO1RaSUQ9RXVyb3BlL0JydXNzZWxzOjIwMjYwNjAxVDEwMDAwMA0KUlJVTEU6RlJFUT1XRUVLTFk7QllEQVk9TU8sV0UsRlINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART;TZID=Europe/Brussels:20260601T090000\r\nDTEND;TZID=Europe/Brussels:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Europe/Warsaw",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Europe/Warsaw]",
+        "to": "2026-06-01T10:00[Europe/Warsaw]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Europe/Warsaw&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Warsaw\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART;TZID=Europe/Warsaw:20260601T090000\r\nDTEND;TZID=Europe/Warsaw:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkV1cm9wZS9XYXJzYXcNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjUwNjAxVDA5MDAwMA0KVFpPRkZTRVRGUk9NOiswMjAwDQpUWk9GRlNFVFRPOiswMjAwDQpUWk5BTUU6Q0VTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI1MTAyNlQwMzAwMDANClRaT0ZGU0VURlJPTTorMDIwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOkNFVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI2MDMyOVQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDIwMA0KVFpOQU1FOkNFU1QNCkVORDpEQVlMSUdIVA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNjEwMjVUMDMwMDAwDQpUWk9GRlNFVEZST006KzAyMDANClRaT0ZGU0VUVE86KzAxMDANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9MTA7QllEQVk9LTFTVQ0KVFpOQU1FOkNFVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI3MDMyOFQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDIwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0zO0JZREFZPS0xU1UNClRaTkFNRTpDRVNUDQpFTkQ6REFZTElHSFQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZFVkVOVA0KVUlEOmVkZTBjMzBjMDRmODljMDcyMGMwMWNkMzI3MDNlMjBjDQpTVU1NQVJZOkJpcnRoZGF5IHBhcnR5DQpEVFNUQU1QOjIwMjYwNjAxVDA3MDAwMFoNCkRUU1RBUlQ7VFpJRD1FdXJvcGUvV2Fyc2F3OjIwMjYwNjAxVDA5MDAwMA0KRFRFTkQ7VFpJRD1FdXJvcGUvV2Fyc2F3OjIwMjYwNjAxVDEwMDAwMA0KUlJVTEU6RlJFUT1XRUVLTFk7QllEQVk9TU8sV0UsRlINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Warsaw\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART;TZID=Europe/Warsaw:20260601T090000\r\nDTEND;TZID=Europe/Warsaw:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Asia/Tokyo",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Asia/Tokyo]",
+        "to": "2026-06-01T10:00[Asia/Tokyo]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Asia/Tokyo&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T00:00:00Z&enddt=2026-06-01T01:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T00:00:00Z&enddt=2026-06-01T01:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:b64488c7321089055c82d6949e18c8f6\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T000000Z\r\nDTSTART:20260601T000000Z\r\nDTEND:20260601T010000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6YjY0NDg4YzczMjEwODkwNTVjODJkNjk0OWUxOGM4ZjYNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMDAwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQwMDAwMDBaDQpEVEVORDoyMDI2MDYwMVQwMTAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Asia/Tokyo\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0900\r\nTZOFFSETTO:+0900\r\nTZNAME:JST\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:b64488c7321089055c82d6949e18c8f6\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T000000Z\r\nDTSTART;TZID=Asia/Tokyo:20260601T090000\r\nDTEND;TZID=Asia/Tokyo:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Africa/Casablanca",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Africa/Casablanca]",
+        "to": "2026-06-01T10:00[Africa/Casablanca]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Africa/Casablanca&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T08:00:00Z&enddt=2026-06-01T09:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T08:00:00Z&enddt=2026-06-01T09:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Africa/Casablanca\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:+01\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260215T030000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:+00\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260322T020000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:+01\r\nEND:STANDARD\r\nBEGIN:STANDARD\r\nDTSTART:20260920T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:+00\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d10b1fd65a661e60dd01719b64c230d7\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T080000Z\r\nDTSTART;TZID=Africa/Casablanca:20260601T090000\r\nDTEND;TZID=Africa/Casablanca:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFmcmljYS9DYXNhYmxhbmNhDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI1MDYwMVQwOTAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOiswMQ0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI2MDIxNVQwMzAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KVFpOQU1FOiswMA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MDMyMlQwMjAwMDANClRaT0ZGU0VURlJPTTorMDAwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOiswMQ0KRU5EOlNUQU5EQVJEDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MDkyMFQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KVFpOQU1FOiswMA0KRU5EOlNUQU5EQVJEDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQNClVJRDpkMTBiMWZkNjVhNjYxZTYwZGQwMTcxOWI2NGMyMzBkNw0KU1VNTUFSWTpCaXJ0aGRheSBwYXJ0eQ0KRFRTVEFNUDoyMDI2MDYwMVQwODAwMDBaDQpEVFNUQVJUO1RaSUQ9QWZyaWNhL0Nhc2FibGFuY2E6MjAyNjA2MDFUMDkwMDAwDQpEVEVORDtUWklEPUFmcmljYS9DYXNhYmxhbmNhOjIwMjYwNjAxVDEwMDAwMA0KUlJVTEU6RlJFUT1XRUVLTFk7QllEQVk9TU8sV0UsRlINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Africa/Casablanca\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:+01\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260215T030000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:+00\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260322T020000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:+01\r\nEND:STANDARD\r\nBEGIN:STANDARD\r\nDTSTART:20260920T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:+00\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d10b1fd65a661e60dd01719b64c230d7\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T080000Z\r\nDTSTART;TZID=Africa/Casablanca:20260601T090000\r\nDTEND;TZID=Africa/Casablanca:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Australia/Lord_Howe",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Australia/Lord_Howe]",
+        "to": "2026-06-01T10:00[Australia/Lord_Howe]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Australia/Lord_Howe&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-05-31T22:30:00Z&enddt=2026-05-31T23:30:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-05-31T22:30:00Z&enddt=2026-05-31T23:30:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Australia/Lord_Howe\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1030\r\nTZNAME:+1030\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20251005T020000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1100\r\nTZNAME:+11\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260405T020000\r\nTZOFFSETFROM:+1100\r\nTZOFFSETTO:+1030\r\nTZNAME:+1030\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20261004T020000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU\r\nTZNAME:+11\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20270404T020000\r\nTZOFFSETFROM:+1100\r\nTZOFFSETTO:+1030\r\nRRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU\r\nTZNAME:+1030\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:1b50ba47a714b65c8111712cf3e517c2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260531T223000Z\r\nDTSTART;TZID=Australia/Lord_Howe:20260601T090000\r\nDTEND;TZID=Australia/Lord_Howe:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkF1c3RyYWxpYS9Mb3JkX0hvd2UNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUwNjAxVDA5MDAwMA0KVFpPRkZTRVRGUk9NOisxMDMwDQpUWk9GRlNFVFRPOisxMDMwDQpUWk5BTUU6KzEwMzANCkVORDpTVEFOREFSRA0KQkVHSU46REFZTElHSFQNCkRUU1RBUlQ6MjAyNTEwMDVUMDIwMDAwDQpUWk9GRlNFVEZST006KzEwMzANClRaT0ZGU0VUVE86KzExMDANClRaTkFNRTorMTENCkVORDpEQVlMSUdIVA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNjA0MDVUMDIwMDAwDQpUWk9GRlNFVEZST006KzExMDANClRaT0ZGU0VUVE86KzEwMzANClRaTkFNRTorMTAzMA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI2MTAwNFQwMjAwMDANClRaT0ZGU0VURlJPTTorMTAzMA0KVFpPRkZTRVRUTzorMTEwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMDtCWURBWT0xU1UNClRaTkFNRTorMTENCkVORDpEQVlMSUdIVA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNzA0MDRUMDIwMDAwDQpUWk9GRlNFVEZST006KzExMDANClRaT0ZGU0VUVE86KzEwMzANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9NDtCWURBWT0xU1UNClRaTkFNRTorMTAzMA0KRU5EOlNUQU5EQVJEDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQNClVJRDoxYjUwYmE0N2E3MTRiNjVjODExMTcxMmNmM2U1MTdjMg0KU1VNTUFSWTpCaXJ0aGRheSBwYXJ0eQ0KRFRTVEFNUDoyMDI2MDUzMVQyMjMwMDBaDQpEVFNUQVJUO1RaSUQ9QXVzdHJhbGlhL0xvcmRfSG93ZToyMDI2MDYwMVQwOTAwMDANCkRURU5EO1RaSUQ9QXVzdHJhbGlhL0xvcmRfSG93ZToyMDI2MDYwMVQxMDAwMDANClJSVUxFOkZSRVE9V0VFS0xZO0JZREFZPU1PLFdFLEZSDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Australia/Lord_Howe\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1030\r\nTZNAME:+1030\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20251005T020000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1100\r\nTZNAME:+11\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260405T020000\r\nTZOFFSETFROM:+1100\r\nTZOFFSETTO:+1030\r\nTZNAME:+1030\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20261004T020000\r\nTZOFFSETFROM:+1030\r\nTZOFFSETTO:+1100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU\r\nTZNAME:+11\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20270404T020000\r\nTZOFFSETFROM:+1100\r\nTZOFFSETTO:+1030\r\nRRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU\r\nTZNAME:+1030\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:1b50ba47a714b65c8111712cf3e517c2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260531T223000Z\r\nDTSTART;TZID=Australia/Lord_Howe:20260601T090000\r\nDTEND;TZID=Australia/Lord_Howe:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Pacific/Apia",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Pacific/Apia]",
+        "to": "2026-06-01T10:00[Pacific/Apia]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=Pacific/Apia&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-05-31T20:00:00Z&enddt=2026-05-31T21:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-05-31T20:00:00Z&enddt=2026-05-31T21:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:7ea2ccbfd7dd07da1bdf4ff1588fff80\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260531T200000Z\r\nDTSTART:20260531T200000Z\r\nDTEND:20260531T210000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6N2VhMmNjYmZkN2RkMDdkYTFiZGY0ZmYxNTg4ZmZmODANClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA1MzFUMjAwMDAwWg0KRFRTVEFSVDoyMDI2MDUzMVQyMDAwMDBaDQpEVEVORDoyMDI2MDUzMVQyMTAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Pacific/Apia\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+1300\r\nTZOFFSETTO:+1300\r\nTZNAME:+13\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:7ea2ccbfd7dd07da1bdf4ff1588fff80\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260531T200000Z\r\nDTSTART;TZID=Pacific/Apia:20260601T090000\r\nDTEND;TZID=Pacific/Apia:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "America/Santiago",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[America/Santiago]",
+        "to": "2026-06-01T10:00[America/Santiago]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=America/Santiago&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T13:00:00Z&enddt=2026-06-01T14:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T13:00:00Z&enddt=2026-06-01T14:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:America/Santiago\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250907T000000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0300\r\nTZNAME:-03\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260405T000000\r\nTZOFFSETFROM:-0300\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260906T000000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0300\r\nTZNAME:-03\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20270404T000000\r\nTZOFFSETFROM:-0300\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:0ff8e10c78e60b5058dfaebc42be43c6\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T130000Z\r\nDTSTART;TZID=America/Santiago:20260601T090000\r\nDTEND;TZID=America/Santiago:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkFtZXJpY2EvU2FudGlhZ28NCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUwNjAxVDA5MDAwMA0KVFpPRkZTRVRGUk9NOi0wNDAwDQpUWk9GRlNFVFRPOi0wNDAwDQpUWk5BTUU6LTA0DQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjUwOTA3VDAwMDAwMA0KVFpPRkZTRVRGUk9NOi0wNDAwDQpUWk9GRlNFVFRPOi0wMzAwDQpUWk5BTUU6LTAzDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjYwNDA1VDAwMDAwMA0KVFpPRkZTRVRGUk9NOi0wMzAwDQpUWk9GRlNFVFRPOi0wNDAwDQpUWk5BTUU6LTA0DQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjYwOTA2VDAwMDAwMA0KVFpPRkZTRVRGUk9NOi0wNDAwDQpUWk9GRlNFVFRPOi0wMzAwDQpUWk5BTUU6LTAzDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjcwNDA0VDAwMDAwMA0KVFpPRkZTRVRGUk9NOi0wMzAwDQpUWk9GRlNFVFRPOi0wNDAwDQpUWk5BTUU6LTA0DQpFTkQ6U1RBTkRBUkQNCkVORDpWVElNRVpPTkUNCkJFR0lOOlZFVkVOVA0KVUlEOjBmZjhlMTBjNzhlNjBiNTA1OGRmYWViYzQyYmU0M2M2DQpTVU1NQVJZOkJpcnRoZGF5IHBhcnR5DQpEVFNUQU1QOjIwMjYwNjAxVDEzMDAwMFoNCkRUU1RBUlQ7VFpJRD1BbWVyaWNhL1NhbnRpYWdvOjIwMjYwNjAxVDA5MDAwMA0KRFRFTkQ7VFpJRD1BbWVyaWNhL1NhbnRpYWdvOjIwMjYwNjAxVDEwMDAwMA0KUlJVTEU6RlJFUT1XRUVLTFk7QllEQVk9TU8sV0UsRlINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:America/Santiago\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250907T000000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0300\r\nTZNAME:-03\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20260405T000000\r\nTZOFFSETFROM:-0300\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260906T000000\r\nTZOFFSETFROM:-0400\r\nTZOFFSETTO:-0300\r\nTZNAME:-03\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20270404T000000\r\nTZOFFSETFROM:-0300\r\nTZOFFSETTO:-0400\r\nTZNAME:-04\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:0ff8e10c78e60b5058dfaebc42be43c6\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T130000Z\r\nDTSTART;TZID=America/Santiago:20260601T090000\r\nDTEND;TZID=America/Santiago:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "America/Sao_Paulo",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[America/Sao_Paulo]",
+        "to": "2026-06-01T10:00[America/Sao_Paulo]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=America/Sao_Paulo&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T12:00:00Z&enddt=2026-06-01T13:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T12:00:00Z&enddt=2026-06-01T13:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:1c894723c56703650af0752b219ef4d2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T120000Z\r\nDTSTART:20260601T120000Z\r\nDTEND:20260601T130000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6MWM4OTQ3MjNjNTY3MDM2NTBhZjA3NTJiMjE5ZWY0ZDINClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMTIwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQxMjAwMDBaDQpEVEVORDoyMDI2MDYwMVQxMzAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:America/Sao_Paulo\r\nBEGIN:STANDARD\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:-0300\r\nTZOFFSETTO:-0300\r\nTZNAME:-03\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:1c894723c56703650af0752b219ef4d2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T120000Z\r\nDTSTART;TZID=America/Sao_Paulo:20260601T090000\r\nDTEND;TZID=America/Sao_Paulo:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Etc/GMT+5",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Etc/GMT+5]",
+        "to": "2026-06-01T10:00[Etc/GMT+5]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T140000Z/20260601T150000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NTQ1ZGNjNmIwOWI0Yzk3MjM2NTIyODM1NzhlMGQ3MWQNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMTQwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQxNDAwMDBaDQpEVEVORDoyMDI2MDYwMVQxNTAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "EST",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[EST]",
+        "to": "2026-06-01T10:00[EST]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T140000Z/20260601T150000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NTQ1ZGNjNmIwOWI0Yzk3MjM2NTIyODM1NzhlMGQ3MWQNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMTQwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQxNDAwMDBaDQpEVEVORDoyMDI2MDYwMVQxNTAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "Factory",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[Factory]",
+        "to": "2026-06-01T10:00[Factory]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000Z/20260601T100000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T09:00:00Z&enddt=2026-06-01T10:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T09:00:00Z&enddt=2026-06-01T10:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:8380f01a7bbce1a52adab9fc2325900b\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T090000Z\r\nDTSTART:20260601T090000Z\r\nDTEND:20260601T100000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6ODM4MGYwMWE3YmJjZTFhNTJhZGFiOWZjMjMyNTkwMGINClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMDkwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQwOTAwMDBaDQpEVEVORDoyMDI2MDYwMVQxMDAwMDBaDQpSUlVMRTpGUkVRPVdFRUtMWTtCWURBWT1NTyxXRSxGUg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:8380f01a7bbce1a52adab9fc2325900b\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T090000Z\r\nDTSTART:20260601T090000Z\r\nDTEND:20260601T100000Z\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "US/Pacific",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[US/Pacific]",
+        "to": "2026-06-01T10:00[US/Pacific]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=US/Pacific&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T16:00:00Z&enddt=2026-06-01T17:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T16:00:00Z&enddt=2026-06-01T17:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:US/Pacific\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251102T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260308T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261101T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270314T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ee9c7c0422a87c130543ad0e1b4afd34\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T160000Z\r\nDTSTART;TZID=US/Pacific:20260601T090000\r\nDTEND;TZID=US/Pacific:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOlVTL1BhY2lmaWMNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjUwNjAxVDA5MDAwMA0KVFpPRkZTRVRGUk9NOi0wNzAwDQpUWk9GRlNFVFRPOi0wNzAwDQpUWk5BTUU6UERUDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjUxMTAyVDAyMDAwMA0KVFpPRkZTRVRGUk9NOi0wNzAwDQpUWk9GRlNFVFRPOi0wODAwDQpUWk5BTUU6UFNUDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjYwMzA4VDAyMDAwMA0KVFpPRkZTRVRGUk9NOi0wODAwDQpUWk9GRlNFVFRPOi0wNzAwDQpUWk5BTUU6UERUDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjYxMTAxVDAyMDAwMA0KVFpPRkZTRVRGUk9NOi0wNzAwDQpUWk9GRlNFVFRPOi0wODAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTExO0JZREFZPTFTVQ0KVFpOQU1FOlBTVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI3MDMxNFQwMjAwMDANClRaT0ZGU0VURlJPTTotMDgwMA0KVFpPRkZTRVRUTzotMDcwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0zO0JZREFZPTJTVQ0KVFpOQU1FOlBEVA0KRU5EOkRBWUxJR0hUDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQNClVJRDplZTljN2MwNDIyYTg3YzEzMDU0M2FkMGUxYjRhZmQzNA0KU1VNTUFSWTpCaXJ0aGRheSBwYXJ0eQ0KRFRTVEFNUDoyMDI2MDYwMVQxNjAwMDBaDQpEVFNUQVJUO1RaSUQ9VVMvUGFjaWZpYzoyMDI2MDYwMVQwOTAwMDANCkRURU5EO1RaSUQ9VVMvUGFjaWZpYzoyMDI2MDYwMVQxMDAwMDANClJSVUxFOkZSRVE9V0VFS0xZO0JZREFZPU1PLFdFLEZSDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:US/Pacific\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251102T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260308T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261101T020000\r\nTZOFFSETFROM:-0700\r\nTZOFFSETTO:-0800\r\nRRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU\r\nTZNAME:PST\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270314T020000\r\nTZOFFSETFROM:-0800\r\nTZOFFSETTO:-0700\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU\r\nTZNAME:PDT\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:ee9c7c0422a87c130543ad0e1b4afd34\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T160000Z\r\nDTSTART;TZID=US/Pacific:20260601T090000\r\nDTEND;TZID=US/Pacific:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "GB",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00[GB]",
+        "to": "2026-06-01T10:00[GB]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY;BYDAY=MO,WE,FR"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T090000/20260601T100000&ctz=GB&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T08:00:00Z&enddt=2026-06-01T09:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T08:00:00Z&enddt=2026-06-01T09:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:GB\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d10b1fd65a661e60dd01719b64c230d7\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T080000Z\r\nDTSTART;TZID=GB:20260601T090000\r\nDTEND;TZID=GB:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkdCDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI1MDYwMVQwOTAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOkJTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI1MTAyNlQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KVFpOQU1FOkdNVA0KRU5EOlNUQU5EQVJEDQpCRUdJTjpEQVlMSUdIVA0KRFRTVEFSVDoyMDI2MDMyOVQwMTAwMDANClRaT0ZGU0VURlJPTTorMDAwMA0KVFpPRkZTRVRUTzorMDEwMA0KVFpOQU1FOkJTVA0KRU5EOkRBWUxJR0hUDQpCRUdJTjpTVEFOREFSRA0KRFRTVEFSVDoyMDI2MTAyNVQwMjAwMDANClRaT0ZGU0VURlJPTTorMDEwMA0KVFpPRkZTRVRUTzorMDAwMA0KUlJVTEU6RlJFUT1ZRUFSTFk7QllNT05USD0xMDtCWURBWT0tMVNVDQpUWk5BTUU6R01UDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjcwMzI4VDAxMDAwMA0KVFpPRkZTRVRGUk9NOiswMDAwDQpUWk9GRlNFVFRPOiswMTAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9LTFTVQ0KVFpOQU1FOkJTVA0KRU5EOkRBWUxJR0hUDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQNClVJRDpkMTBiMWZkNjVhNjYxZTYwZGQwMTcxOWI2NGMyMzBkNw0KU1VNTUFSWTpCaXJ0aGRheSBwYXJ0eQ0KRFRTVEFNUDoyMDI2MDYwMVQwODAwMDBaDQpEVFNUQVJUO1RaSUQ9R0I6MjAyNjA2MDFUMDkwMDAwDQpEVEVORDtUWklEPUdCOjIwMjYwNjAxVDEwMDAwMA0KUlJVTEU6RlJFUT1XRUVLTFk7QllEQVk9TU8sV0UsRlINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:GB\r\nBEGIN:DAYLIGHT\r\nDTSTART:20250601T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0000\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:GMT\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T010000\r\nTZOFFSETFROM:+0000\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:BST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:d10b1fd65a661e60dd01719b64c230d7\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T080000Z\r\nDTSTART;TZID=GB:20260601T090000\r\nDTEND;TZID=GB:20260601T100000\r\nRRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "+02:00",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00+02:00",
+        "to": "2026-06-01T10:00+02:00",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T070000Z/20260601T080000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T07:00:00Z&enddt=2026-06-01T08:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART:20260601T070000Z\r\nDTEND:20260601T080000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6ZWRlMGMzMGMwNGY4OWMwNzIwYzAxY2QzMjcwM2UyMGMNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMDcwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQwNzAwMDBaDQpEVEVORDoyMDI2MDYwMVQwODAwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:ede0c30c04f89c0720c01cd32703e20c\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T070000Z\r\nDTSTART:20260601T070000Z\r\nDTEND:20260601T080000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "-05:00",
+        "title": "Birthday party",
+        "from": "2026-06-01T09:00-05:00",
+        "to": "2026-06-01T10:00-05:00",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260601T140000Z/20260601T150000Z&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260601T090000&ET=20260601T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-06-01T14:00:00Z&enddt=2026-06-01T15:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NTQ1ZGNjNmIwOWI0Yzk3MjM2NTIyODM1NzhlMGQ3MWQNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA2MDFUMTQwMDAwWg0KRFRTVEFSVDoyMDI2MDYwMVQxNDAwMDBaDQpEVEVORDoyMDI2MDYwMVQxNTAwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:545dcc6b09b4c9723652283578e0d71d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260601T140000Z\r\nDTSTART:20260601T140000Z\r\nDTEND:20260601T150000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "all day 1",
+        "title": "Birthday party",
+        "from": "2026-03-28T00:00[Europe/Brussels]",
+        "to": "2026-03-28T00:00[Europe/Brussels]",
+        "days": 1,
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260328/20260329&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260328&DUR=allday&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2026-03-29&allday=true&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2026-03-29&allday=true&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:7c033602f1720a37ca5cbb70dafdd839\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P1D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6N2MwMzM2MDJmMTcyMGEzN2NhNWNiYjcwZGFmZGQ4MzkNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAzMjdUMjMwMDAwWg0KRFRTVEFSVDtWQUxVRT1EQVRFOjIwMjYwMzI4DQpEVVJBVElPTjpQMUQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:7c033602f1720a37ca5cbb70dafdd839\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P1D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "all day 5",
+        "title": "Birthday party",
+        "from": "2026-03-28T00:00[Europe/Brussels]",
+        "to": "2026-03-28T00:00[Europe/Brussels]",
+        "days": 5,
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260328/20260402&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260328&ET=20260402&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2026-04-02&allday=true&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2026-04-02&allday=true&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:2aa36202d5995a72552c307f8c31fa77\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P5D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6MmFhMzYyMDJkNTk5NWE3MjU1MmMzMDdmOGMzMWZhNzcNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAzMjdUMjMwMDAwWg0KRFRTVEFSVDtWQUxVRT1EQVRFOjIwMjYwMzI4DQpEVVJBVElPTjpQNUQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:2aa36202d5995a72552c307f8c31fa77\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P5D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "all day 400",
+        "title": "Birthday party",
+        "from": "2026-03-28T00:00[Europe/Brussels]",
+        "to": "2026-03-28T00:00[Europe/Brussels]",
+        "days": 400,
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260328/20270502&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260328&ET=20270502&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2027-05-02&allday=true&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-03-28&enddt=2027-05-02&allday=true&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:8764ba1370e1945cd91c72c49b0433bc\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P400D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6ODc2NGJhMTM3MGUxOTQ1Y2Q5MWM3MmM0OWIwNDMzYmMNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjAzMjdUMjMwMDAwWg0KRFRTVEFSVDtWQUxVRT1EQVRFOjIwMjYwMzI4DQpEVVJBVElPTjpQNDAwRA0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:8764ba1370e1945cd91c72c49b0433bc\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260327T230000Z\r\nDTSTART;VALUE=DATE:20260328\r\nDURATION:P400D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "all day offset",
+        "title": "Birthday party",
+        "from": "2026-01-01T00:00+02:00",
+        "to": "2026-01-01T00:00+02:00",
+        "days": 1,
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260101/20260102&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260101&DUR=allday&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01&enddt=2026-01-02&allday=true&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-01-01&enddt=2026-01-02&allday=true&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:b86160c848c12d60763329b33eb0b9a0\r\nSUMMARY:Birthday party\r\nDTSTAMP:20251231T220000Z\r\nDTSTART;VALUE=DATE:20260101\r\nDURATION:P1D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6Yjg2MTYwYzg0OGMxMmQ2MDc2MzMyOWIzM2ViMGI5YTANClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNTEyMzFUMjIwMDAwWg0KRFRTVEFSVDtWQUxVRT1EQVRFOjIwMjYwMTAxDQpEVVJBVElPTjpQMUQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:b86160c848c12d60763329b33eb0b9a0\r\nSUMMARY:Birthday party\r\nDTSTAMP:20251231T220000Z\r\nDTSTART;VALUE=DATE:20260101\r\nDURATION:P1D\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "second fold",
+        "title": "Birthday party",
+        "from": "2026-10-25T02:15:00+01:00[Europe/Brussels]",
+        "to": "2026-10-25T03:30:00+01:00[Europe/Brussels]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20261025T021500/20261025T033000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20261025T021500&ET=20261025T033000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-10-25T01:15:00Z&enddt=2026-10-25T02:30:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-10-25T01:15:00Z&enddt=2026-10-25T02:30:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:21702f23b37cc401572ca99099d7eb3d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20261025T011500Z\r\nDTSTART:20261025T011500Z\r\nDTEND:20261025T023000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6MjE3MDJmMjNiMzdjYzQwMTU3MmNhOTkwOTlkN2ViM2QNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjEwMjVUMDExNTAwWg0KRFRTVEFSVDoyMDI2MTAyNVQwMTE1MDBaDQpEVEVORDoyMDI2MTAyNVQwMjMwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:21702f23b37cc401572ca99099d7eb3d\r\nSUMMARY:Birthday party\r\nDTSTAMP:20261025T011500Z\r\nDTSTART:20261025T011500Z\r\nDTEND:20261025T023000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "first fold",
+        "title": "Birthday party",
+        "from": "2026-10-25T02:15:00+02:00[Europe/Brussels]",
+        "to": "2026-10-25T03:30:00+01:00[Europe/Brussels]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20261025T021500/20261025T033000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20261025T021500&ET=20261025T033000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-10-25T00:15:00Z&enddt=2026-10-25T02:30:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-10-25T00:15:00Z&enddt=2026-10-25T02:30:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:b696876fe5a7c1bf3f7426cc08e013b8\r\nSUMMARY:Birthday party\r\nDTSTAMP:20261025T001500Z\r\nDTSTART:20261025T001500Z\r\nDTEND:20261025T023000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6YjY5Njg3NmZlNWE3YzFiZjNmNzQyNmNjMDhlMDEzYjgNClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjEwMjVUMDAxNTAwWg0KRFRTVEFSVDoyMDI2MTAyNVQwMDE1MDBaDQpEVEVORDoyMDI2MTAyNVQwMjMwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:DAYLIGHT\r\nDTSTART:20251025T021500\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20251026T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:b696876fe5a7c1bf3f7426cc08e013b8\r\nSUMMARY:Birthday party\r\nDTSTAMP:20261025T001500Z\r\nDTSTART;TZID=Europe/Brussels:20261025T021500\r\nDTEND;TZID=Europe/Brussels:20261025T033000\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "half hour fold",
+        "title": "Birthday party",
+        "from": "2026-04-05T01:45:00+10:30[Australia/Lord_Howe]",
+        "to": "2026-04-05T03:30:00+10:30[Australia/Lord_Howe]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20260405T014500/20260405T033000&ctz=Australia/Lord_Howe&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20260405T014500&ET=20260405T033000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-04-04T15:15:00Z&enddt=2026-04-04T17:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2026-04-04T15:15:00Z&enddt=2026-04-04T17:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:17d1d71e9a2362b0dd691784042cf4d2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260404T151500Z\r\nDTSTART:20260404T151500Z\r\nDTEND:20260404T170000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6MTdkMWQ3MWU5YTIzNjJiMGRkNjkxNzg0MDQyY2Y0ZDINClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNjA0MDRUMTUxNTAwWg0KRFRTVEFSVDoyMDI2MDQwNFQxNTE1MDBaDQpEVEVORDoyMDI2MDQwNFQxNzAwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:17d1d71e9a2362b0dd691784042cf4d2\r\nSUMMARY:Birthday party\r\nDTSTAMP:20260404T151500Z\r\nDTSTART:20260404T151500Z\r\nDTEND:20260404T170000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "options",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "options": {
+            "UID": "workshop;\\,\n2027",
+            "PRODID": "My Product",
+            "URL": "https://example.com/events/birthday-party?a=1&b=2",
+            "DTSTAMP": "2027-02-01T12:30:00Z",
+            "TRANSP": "transparent",
+            "CLASS": "private",
+            "X-MICROSOFT-CDO-BUSYSTATUS": "tentative",
+            "REMINDER": {
+                "DESCRIPTION": "The workshop starts;\nBring a laptop.",
+                "TIME": "2027-03-15T08:45:00Z"
+            }
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:My Product\r\nBEGIN:VEVENT\r\nUID:workshop\\;\\\\\\,\\n2027\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270201T123000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nTRANSP:TRANSPARENT\r\nCLASS:PRIVATE\r\nX-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE\r\nURL;VALUE=URI:https://example.com/events/birthday-party?a=1&b=2\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:The workshop starts\\;\\nBring a laptop.\r\nTRIGGER;VALUE=DATE-TIME:20270315T084500Z\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOk15IFByb2R1Y3QNCkJFR0lOOlZFVkVOVA0KVUlEOndvcmtzaG9wXDtcXFwsXG4yMDI3DQpTVU1NQVJZOkJpcnRoZGF5IHBhcnR5DQpEVFNUQU1QOjIwMjcwMjAxVDEyMzAwMFoNCkRUU1RBUlQ6MjAyNzAzMTVUMDkwMDAwWg0KRFRFTkQ6MjAyNzAzMTVUMTYwMDAwWg0KVFJBTlNQOlRSQU5TUEFSRU5UDQpDTEFTUzpQUklWQVRFDQpYLU1JQ1JPU09GVC1DRE8tQlVTWVNUQVRVUzpURU5UQVRJVkUNClVSTDtWQUxVRT1VUkk6aHR0cHM6Ly9leGFtcGxlLmNvbS9ldmVudHMvYmlydGhkYXktcGFydHk/YT0xJmI9Mg0KQkVHSU46VkFMQVJNDQpBQ1RJT046RElTUExBWQ0KREVTQ1JJUFRJT046VGhlIHdvcmtzaG9wIHN0YXJ0c1w7XG5CcmluZyBhIGxhcHRvcC4NClRSSUdHRVI7VkFMVUU9REFURS1USU1FOjIwMjcwMzE1VDA4NDUwMFoNCkVORDpWQUxBUk0NCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:My Product\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:workshop\\;\\\\\\,\\n2027\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270201T123000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nTRANSP:TRANSPARENT\r\nCLASS:PRIVATE\r\nX-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE\r\nURL;VALUE=URI:https://example.com/events/birthday-party?a=1&b=2\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:The workshop starts\\;\\nBring a laptop.\r\nTRIGGER;VALUE=DATE-TIME:20270315T084500Z\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "default reminder",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "options": {
+            "REMINDER": []
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder: Birthday party\r\nTRIGGER:-PT15M\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpCRUdJTjpWQUxBUk0NCkFDVElPTjpESVNQTEFZDQpERVNDUklQVElPTjpSZW1pbmRlcjogQmlydGhkYXkgcGFydHkNClRSSUdHRVI6LVBUMTVNDQpFTkQ6VkFMQVJNDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:Reminder: Birthday party\r\nTRIGGER:-PT15M\r\nEND:VALARM\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "leap day",
+        "title": "Birthday party",
+        "from": "2024-02-29T09:00[Europe/Brussels]",
+        "to": "2024-02-29T10:00[Europe/Brussels]",
+        "options": {
+            "RRULE": "FREQ=WEEKLY"
+        },
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240229T090000/20240229T100000&ctz=Europe/Brussels&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20240229T090000&ET=20240229T100000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2024-02-29T08:00:00Z&enddt=2024-02-29T09:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2024-02-29T08:00:00Z&enddt=2024-02-29T09:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20230301T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20230326T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20231029T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20240331T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20241027T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:37e78a9a1f253655e31c1998dd39c479\r\nSUMMARY:Birthday party\r\nDTSTAMP:20240229T080000Z\r\nDTSTART;TZID=Europe/Brussels:20240229T090000\r\nDTEND;TZID=Europe/Brussels:20240229T100000\r\nRRULE:FREQ=WEEKLY\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VlRJTUVaT05FDQpUWklEOkV1cm9wZS9CcnVzc2Vscw0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyMzAzMDFUMDkwMDAwDQpUWk9GRlNFVEZST006KzAxMDANClRaT0ZGU0VUVE86KzAxMDANClRaTkFNRTpDRVQNCkVORDpTVEFOREFSRA0KQkVHSU46REFZTElHSFQNCkRUU1RBUlQ6MjAyMzAzMjZUMDIwMDAwDQpUWk9GRlNFVEZST006KzAxMDANClRaT0ZGU0VUVE86KzAyMDANClRaTkFNRTpDRVNUDQpFTkQ6REFZTElHSFQNCkJFR0lOOlNUQU5EQVJEDQpEVFNUQVJUOjIwMjMxMDI5VDAzMDAwMA0KVFpPRkZTRVRGUk9NOiswMjAwDQpUWk9GRlNFVFRPOiswMTAwDQpUWk5BTUU6Q0VUDQpFTkQ6U1RBTkRBUkQNCkJFR0lOOkRBWUxJR0hUDQpEVFNUQVJUOjIwMjQwMzMxVDAyMDAwMA0KVFpPRkZTRVRGUk9NOiswMTAwDQpUWk9GRlNFVFRPOiswMjAwDQpSUlVMRTpGUkVRPVlFQVJMWTtCWU1PTlRIPTM7QllEQVk9LTFTVQ0KVFpOQU1FOkNFU1QNCkVORDpEQVlMSUdIVA0KQkVHSU46U1RBTkRBUkQNCkRUU1RBUlQ6MjAyNDEwMjdUMDMwMDAwDQpUWk9GRlNFVEZST006KzAyMDANClRaT0ZGU0VUVE86KzAxMDANClJSVUxFOkZSRVE9WUVBUkxZO0JZTU9OVEg9MTA7QllEQVk9LTFTVQ0KVFpOQU1FOkNFVA0KRU5EOlNUQU5EQVJEDQpFTkQ6VlRJTUVaT05FDQpCRUdJTjpWRVZFTlQNClVJRDozN2U3OGE5YTFmMjUzNjU1ZTMxYzE5OThkZDM5YzQ3OQ0KU1VNTUFSWTpCaXJ0aGRheSBwYXJ0eQ0KRFRTVEFNUDoyMDI0MDIyOVQwODAwMDBaDQpEVFNUQVJUO1RaSUQ9RXVyb3BlL0JydXNzZWxzOjIwMjQwMjI5VDA5MDAwMA0KRFRFTkQ7VFpJRD1FdXJvcGUvQnJ1c3NlbHM6MjAyNDAyMjlUMTAwMDAwDQpSUlVMRTpGUkVRPVdFRUtMWQ0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20230301T090000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20230326T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20231029T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20240331T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20241027T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:37e78a9a1f253655e31c1998dd39c479\r\nSUMMARY:Birthday party\r\nDTSTAMP:20240229T080000Z\r\nDTSTART;TZID=Europe/Brussels:20240229T090000\r\nDTEND;TZID=Europe/Brussels:20240229T100000\r\nRRULE:FREQ=WEEKLY\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "dateline fold",
+        "title": "Birthday party",
+        "from": "1969-09-30T10:00:00-12:00[Pacific/Kwajalein]",
+        "to": "1969-09-30T11:00:00-12:00[Pacific/Kwajalein]",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=19690930T100000/19690930T110000&ctz=Pacific/Kwajalein&text=Birthday+party",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=19690930T100000&ET=19690930T110000&TITLE=Birthday%20party",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=1969-09-30T22:00:00Z&enddt=1969-09-30T23:00:00Z&subject=Birthday%20party",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=1969-09-30T22:00:00Z&enddt=1969-09-30T23:00:00Z&subject=Birthday%20party",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:c48e37117286d0774bd351b5478ee35b\r\nSUMMARY:Birthday party\r\nDTSTAMP:19690930T220000Z\r\nDTSTART:19690930T220000Z\r\nDTEND:19690930T230000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6YzQ4ZTM3MTE3Mjg2ZDA3NzRiZDM1MWI1NDc4ZWUzNWINClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MTk2OTA5MzBUMjIwMDAwWg0KRFRTVEFSVDoxOTY5MDkzMFQyMjAwMDBaDQpEVEVORDoxOTY5MDkzMFQyMzAwMDBaDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:c48e37117286d0774bd351b5478ee35b\r\nSUMMARY:Birthday party\r\nDTSTAMP:19690930T220000Z\r\nDTSTART:19690930T220000Z\r\nDTEND:19690930T230000Z\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html 1 < 2 and 3 > 2",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "1 < 2 and 3 > 2",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=1+%3C+2+and+3+%3E+2",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=1%20%3C%202%20and%203%20%3E%202",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=1%20%3C%202%20and%203%20%3E%202",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=1%20%3C%202%20and%203%20%3E%202",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:1 < 2 and 3 > 2\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjoxIDwgMiBhbmQgMyA+IDINCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:1 < 2 and 3 > 2\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html a<!-- x > y -->b",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "a<!-- x > y -->b",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=a%3C%21--+x+%3E+y+--%3Eb",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=a%3C%21--%20x%20%3E%20y%20--%3Eb",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3C%21--%20x%20%3E%20y%20--%3Eb",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3C%21--%20x%20%3E%20y%20--%3Eb",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjphYg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html a<?php echo \"?>\"; ?>b",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "a<?php echo \"?>\"; ?>b",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=a%3C%3Fphp+echo+%22%3F%3E%22%3B+%3F%3Eb",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=a%3C%3Fphp%20echo%20%22%3F%3E%22%3B%20%3F%3Eb",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3C%3Fphp%20echo%20%22%3F%3E%22%3B%20%3F%3Eb",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3C%3Fphp%20echo%20%22%3F%3E%22%3B%20%3F%3Eb",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjphYg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html <p title=\"a > b\">keep</p>",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "<p title=\"a > b\">keep</p>",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=%3Cp+title%3D%22a+%3E+b%22%3Ekeep%3C%2Fp%3E",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=%3Cp%20title%3D%22a%20%3E%20b%22%3Ekeep%3C%2Fp%3E",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=%3Cp%20title%3D%22a%20%3E%20b%22%3Ekeep%3C%2Fp%3E",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=%3Cp%20title%3D%22a%20%3E%20b%22%3Ekeep%3C%2Fp%3E",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:keep\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjprZWVwDQpFTkQ6VkVWRU5UDQpFTkQ6VkNBTEVOREFSDQo=",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:keep\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html a<outer<inner>>b",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "a<outer<inner>>b",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=a%3Couter%3Cinner%3E%3Eb",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=a%3Couter%3Cinner%3E%3Eb",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3Couter%3Cinner%3E%3Eb",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=a%3Couter%3Cinner%3E%3Eb",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjphYg0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:ab\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html <script>keep text</script>",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "<script>keep text</script>",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=%3Cscript%3Ekeep+text%3C%2Fscript%3E",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=%3Cscript%3Ekeep%20text%3C%2Fscript%3E",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=%3Cscript%3Ekeep%20text%3C%2Fscript%3E",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=%3Cscript%3Ekeep%20text%3C%2Fscript%3E",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:keep text\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjprZWVwIHRleHQNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:keep text\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    },
+    {
+        "name": "html before<unfinished",
+        "title": "Birthday party",
+        "from": "2027-03-15T10:00[Europe/Brussels]",
+        "to": "2027-03-15T17:00[Europe/Brussels]",
+        "description": "before<unfinished",
+        "expected": {
+            "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party&details=before%3Cunfinished",
+            "yahoo": "https://calendar.yahoo.com/?v=60&ST=20270315T100000&ET=20270315T170000&TITLE=Birthday%20party&DESC=before%3Cunfinished",
+            "web_outlook": "https://outlook.live.com/calendar/action/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=before%3Cunfinished",
+            "web_office": "https://outlook.cloud.microsoft/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt=2027-03-15T09:00:00Z&enddt=2027-03-15T16:00:00Z&subject=Birthday%20party&body=before%3Cunfinished",
+            "ics": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART:20270315T090000Z\r\nDTEND:20270315T160000Z\r\nDESCRIPTION:before\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n",
+            "ics_uri": "data:text/calendar;charset=utf-8;base64,QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KUFJPRElEOlNwYXRpZSBjYWxlbmRhci1saW5rcw0KQkVHSU46VkVWRU5UDQpVSUQ6NWVmOGVkYmVlZTg3YTJiNzVjMWNiYmM5MDhmMzhiZTENClNVTU1BUlk6QmlydGhkYXkgcGFydHkNCkRUU1RBTVA6MjAyNzAzMTVUMDkwMDAwWg0KRFRTVEFSVDoyMDI3MDMxNVQwOTAwMDBaDQpEVEVORDoyMDI3MDMxNVQxNjAwMDBaDQpERVNDUklQVElPTjpiZWZvcmUNCkVORDpWRVZFTlQNCkVORDpWQ0FMRU5EQVINCg==",
+            "ics_with_timezones": "BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:Spatie calendar-links\r\nBEGIN:VTIMEZONE\r\nTZID:Europe/Brussels\r\nBEGIN:STANDARD\r\nDTSTART:20260315T100000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20260329T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20261025T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nTZNAME:CET\r\nEND:STANDARD\r\nBEGIN:DAYLIGHT\r\nDTSTART:20270328T020000\r\nTZOFFSETFROM:+0100\r\nTZOFFSETTO:+0200\r\nRRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU\r\nTZNAME:CEST\r\nEND:DAYLIGHT\r\nBEGIN:STANDARD\r\nDTSTART:20271031T030000\r\nTZOFFSETFROM:+0200\r\nTZOFFSETTO:+0100\r\nRRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU\r\nTZNAME:CET\r\nEND:STANDARD\r\nEND:VTIMEZONE\r\nBEGIN:VEVENT\r\nUID:5ef8edbeee87a2b75c1cbbc908f38be1\r\nSUMMARY:Birthday party\r\nDTSTAMP:20270315T090000Z\r\nDTSTART;TZID=Europe/Brussels:20270315T100000\r\nDTEND;TZID=Europe/Brussels:20270315T170000\r\nDESCRIPTION:before\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n"
+        }
+    }
+]

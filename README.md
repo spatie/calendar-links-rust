@@ -1,27 +1,34 @@
-# {{crate_name}}
+# spatie-calendar-links
 
-[![Latest version on crates.io](https://img.shields.io/crates/v/{{crate_name}}.svg?style=flat-square)](https://crates.io/crates/{{crate_name}})
-[![Tests](https://img.shields.io/github/actions/workflow/status/{{owner}}/{{repository}}/ci.yml?branch=main&style=flat-square)](https://github.com/{{owner}}/{{repository}}/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/{{owner}}/{{repository}}/blob/main/LICENSE.md)
-[![Total downloads](https://img.shields.io/crates/d/{{crate_name}}.svg?style=flat-square)](https://crates.io/crates/{{crate_name}})
+[![Latest version on crates.io](https://img.shields.io/crates/v/spatie-calendar-links.svg?style=flat-square)](https://crates.io/crates/spatie-calendar-links)
+[![Tests](https://img.shields.io/github/actions/workflow/status/spatie/calendar-links-rust/ci.yml?branch=main&style=flat-square)](https://github.com/spatie/calendar-links-rust/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/spatie/calendar-links-rust/blob/main/LICENSE.md)
+[![Total downloads](https://img.shields.io/crates/d/spatie-calendar-links.svg?style=flat-square)](https://crates.io/crates/spatie-calendar-links)
 
-<!--delete-->
----
-Use this template to create a Rust package:
+Using this package, you can generate links to add events to calendar systems. Here's a quick example:
 
-1. Press the "Use this template" button to create a new repository with this skeleton's contents.
-2. Run `python3 configure.py` (Windows: `py -3 configure.py`) to replace the placeholders and remove the template-only files.
-3. Have fun creating your package.
+```rust
+use spatie_calendar_links::Link;
 
-Requires Python 3.11+ for configuration and [Rust](https://rustup.rs/) 1.89+ for the library. See [SKELETON.md](SKELETON.md) for template maintenance and non-interactive use.
+Link::create(
+    "Birthday party",
+    "2027-03-15T10:00[Europe/Brussels]".parse()?,
+    "2027-03-15T17:00[Europe/Brussels]".parse()?,
+)?.google();
+# Ok::<(), Box<dyn std::error::Error>>(())
+```
 
----
-<!--/delete-->
-{{description}}
+This will output:
+
+```text
+https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20270315T100000/20270315T170000&ctz=Europe/Brussels&text=Birthday+party
+```
+
+Give both dates an explicit timezone, as above. The package can also generate ics files that you can open in several email and calendar programs, including Microsoft Outlook, Google Calendar, and Apple Calendar.
 
 ## Support us
 
-[<img src="https://spatie.be/github-ad-image/{{crate_name}}.jpg" alt="Support Spatie's open source work" width="419px" />](https://spatie.be/github-ad-click/{{crate_name}})
+[<img src="https://spatie.be/github-ad-image/spatie-calendar-links.jpg" alt="Support Spatie's open source work" width="419px" />](https://spatie.be/github-ad-click/spatie-calendar-links)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -32,25 +39,59 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 Requires Rust 1.89 or newer. Once the crate is published:
 
 ```sh
-cargo add {{crate_name}}
+cargo add spatie-calendar-links
 ```
 
 Before publication, use a path dependency from a neighboring application:
 
 ```toml
 [dependencies]
-{{crate_name}} = { path = "../{{repository}}" }
+spatie-calendar-links = { path = "../calendar-links-rust" }
 ```
 
 ## Usage
 
 ```rust
-use {{crate_import}}::greet;
+use spatie_calendar_links::{Ics, Link, Presentation};
 
-assert_eq!(greet("Freek"), "Hello, Freek!");
+let from = "2027-03-15T10:00[Europe/Brussels]".parse()?;
+let to = "2027-03-15T17:00[Europe/Brussels]".parse()?;
+
+let link = Link::create("Birthday party", from, to)?
+    .description("A full day of hands-on testing. Bring a laptop.")
+    .address("Samberstraat 69D, 2060 Antwerp, Belgium");
+
+// A link that creates the event on Google calendar
+println!("{}", link.google());
+
+// A link that creates the event on Yahoo calendar
+println!("{}", link.yahoo());
+
+// A link that creates the event on outlook.live.com
+println!("{}", link.web_outlook());
+
+// A link that creates the event on outlook.cloud.microsoft
+println!("{}", link.web_office());
+
+// A data URI holding an ics file, for iCal, Apple Calendar and Outlook
+println!("{}", link.ics()?);
+
+// The raw ics body instead of a data URI, to attach to an email as a file
+println!("{}", link.format_with(&Ics {
+    presentation: Presentation::File,
+    ..Ics::default()
+})?);
+
+// Any generator of your own
+# struct YourGenerator;
+# impl spatie_calendar_links::Generator for YourGenerator {
+#     fn generate(&self, link: &Link) -> Result<String, spatie_calendar_links::Error> { Ok(link.google()) }
+# }
+println!("{}", link.format_with(&YourGenerator)?);
+# Ok::<(), Box<dyn std::error::Error>>(())
 ```
 
-See the [usage guide](https://github.com/{{owner}}/{{repository}}/blob/main/docs/usage.md).
+See the [documentation](https://spatie.be/docs/calendar-links-rust/v1/introduction) for all-day events, guests, separate start and end timezones, recurring events, ICS options and custom generators.
 
 ## Testing
 
@@ -59,27 +100,28 @@ cargo test --locked --all-targets --all-features
 cargo test --locked --doc --all-features
 ```
 
-See [all quality checks](https://github.com/{{owner}}/{{repository}}/blob/main/docs/testing.md). The README and Markdown guides are tested by rustdoc, including setup on hidden `# ` lines.
+See [all quality checks](https://github.com/spatie/calendar-links-rust/blob/main/docs/testing.md). The README and Markdown guides are tested by rustdoc, including setup on hidden `# ` lines.
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/{{owner}}/{{repository}}/blob/main/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/spatie/calendar-links-rust/blob/main/CHANGELOG.md).
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/{{owner}}/{{repository}}/blob/main/CONTRIBUTING.md) and the [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/).
+See [CONTRIBUTING.md](https://github.com/spatie/calendar-links-rust/blob/main/CONTRIBUTING.md) and the [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/).
 
 Using an AI coding agent? Load Apollo's [rust-best-practices skill](https://github.com/apollographql/skills/tree/main/skills/rust-best-practices) when writing or reviewing code in this package.
 
 ## Security Vulnerabilities
 
-Report vulnerabilities privately using the instructions in [SECURITY.md](https://github.com/{{owner}}/{{repository}}/blob/main/SECURITY.md).
+Report vulnerabilities privately using the instructions in [SECURITY.md](https://github.com/spatie/calendar-links-rust/blob/main/SECURITY.md).
 
 ## Credits
 
-- [{{author_name}}](https://github.com/{{author_username}})
-- [All contributors](https://github.com/{{owner}}/{{repository}}/graphs/contributors)
+- [Sebastian De Deyne](https://github.com/sebastiandedeyne)
+- [Freek Van der Herten](https://github.com/freekmurze)
+- [All contributors](https://github.com/spatie/calendar-links-rust/graphs/contributors)
 
 ## License
 
-The MIT License (MIT). See [LICENSE.md](https://github.com/{{owner}}/{{repository}}/blob/main/LICENSE.md).
+The MIT License (MIT). See [LICENSE.md](https://github.com/spatie/calendar-links-rust/blob/main/LICENSE.md).
