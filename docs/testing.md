@@ -35,10 +35,4 @@ cargo audit
 
 CI runs stable checks on Linux, macOS and Windows, and the MSRV and audit checks on Linux. An audit requires access to the RustSec advisory database.
 
-The output tests compare all generators byte for byte with fixtures produced by [spatie/calendar-links](https://github.com/spatie/calendar-links/tree/a1590989934891fa79c145eb1108e42765218b17). They cover all-day events, separate endpoint zones, aliases, UTC fallbacks, recurring events, clock changes, guests, encoding, folding and ICS options. Rust tests need no PHP installation.
-
-To regenerate those fixtures, check out that PHP revision in a neighboring `calendar-links` directory, then run with PHP 8.3 or newer and a complete timezone database (including backward aliases):
-
-```sh
-php tests/generate-fixtures.php ../calendar-links > tests/fixtures/php.json
-```
+Output tests cover all-day events, separate endpoint zones, aliases, UTC fallbacks, recurring events, clock changes, guests, encoding, folding and ICS options. Tests require no external service.
