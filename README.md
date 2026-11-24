@@ -1,4 +1,4 @@
-# spatie-calendar-links
+# Generate add to calendar links for Google, iCal and other calendar systems
 
 [![Latest version on crates.io](https://img.shields.io/crates/v/spatie-calendar-links.svg?style=flat-square)](https://crates.io/crates/spatie-calendar-links)
 [![Tests](https://img.shields.io/github/actions/workflow/status/spatie/calendar-links-rust/ci.yml?branch=main&style=flat-square)](https://github.com/spatie/calendar-links-rust/actions/workflows/ci.yml)
